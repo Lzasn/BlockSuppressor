@@ -1,0 +1,19 @@
+# 构建产物
+build/
+out/
+target/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# 系统
+Thumbs.db
+Desktop.ini
+.DS_Store

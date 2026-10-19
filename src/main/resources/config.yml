@@ -1,0 +1,29 @@
+# 抑制域半径（以比较器指向的方块为中心的立方体）
+# 0 = 只抑制指向的那一格；1 = 3x3x3；2 = 5x5x5
+radius: 1
+
+# 半径上限，防止误配把整片区域冻住
+max-radius: 3
+
+# 抑制器容器禁止打开、禁止与漏斗交换物品
+# 玩家试图打开时在物品栏上方显示的红字
+locked-message: "该容器已被锁定为方块抑制器，无法打开"
+
+# 铁砧重命名成这些名字的容器才会成为抑制器
+# 匹配时忽略大小写、忽略半角/全角空格
+suppressor-names:
+  - "方块抑制器"
+  - "Block Suppressor"
+
+# 允许作为抑制器的容器方块（只支持这几种）
+allowed-containers:
+  - CHEST
+  - TRAPPED_CHEST
+  - ENDER_CHEST
+
+# 接上比较器（抑制器生效）后，容器上方的常驻悬浮标签
+hologram:
+  enabled: true
+  text: "Block Suppressor"
+  # 相对容器底部的悬浮高度
+  height: 1.45
