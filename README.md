@@ -1,14 +1,3 @@
-> [!WARNING]
-> **本项目全程 100% 使用 Vibe Coding 开发。**
->
-> 如果你介意这一点，请不要使用本项目的源代码以及编译产物。
-> 代码只在有限场景下验证过，**存在 bug 在预期范围内**，按 "AS IS" 提供，不附带任何保证。
-> 继续使用即表示风险自负。
->
-> *This project is 100% vibe-coded. If that bothers you, please don't use the source code or the compiled artifacts. Bugs are expected.*
-
-# BlockSuppressor
-
 Folia 26.2 的「方块更新抑制器」插件。判定方式很简单：
 
 > **把容器拿到铁砧上改名为 `方块抑制器` 或 `Block Suppressor`，它就成了抑制器。**
